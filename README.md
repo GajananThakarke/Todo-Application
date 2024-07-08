@@ -1,6 +1,6 @@
 # Todo-Application
-Todo application with Node.js, React, and Docker
 
+Todo application with Node.js, React, and Docker
 
 ## Overview
 
@@ -31,12 +31,24 @@ This is a Todo application with a Node.js backend and a React frontend. The appl
     cd <repository-name>
     ```
 
-2. Start the application using Docker Compose:
+2. Install dependencies for both the frontend and backend:
+
+    ```bash
+    # Navigate to backend directory and install dependencies
+    cd todo-backend
+    npm install
+
+    # Navigate to frontend directory and install dependencies
+    cd ../todo-frontend
+    npm install
+    ```
+
+3. Start the application using Docker Compose:
     ```bash
     docker-compose up
     ```
 
-3. Access the application:
+4. Access the application:
    - Frontend: `http://localhost:3000`
    - Backend: `http://localhost:3001`
 
