@@ -16,6 +16,25 @@ This is a Todo application with a Node.js backend and a React frontend. The appl
 - Search for todo items
 - Authenticate using Google
 
+## Technology Used
+
+### Backend
+- **Node.js**
+- **Express.js**
+- **MySQL 8**
+- **Sequelize (ORM)**
+- **Google OAuth**
+
+### Frontend
+- **React.js**
+- **TypeScript**
+- **HTML**
+- **CSS**
+
+### Containerization
+- **Docker**
+- **Docker Compose**
+
 ## Setup and Run
 
 ### Prerequisites
